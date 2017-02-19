@@ -85,12 +85,7 @@ function createtemplate(data){
         app.get('/:article name', function (req, res) {
         res.send(path.join(createtemplate(artcles[articlename])));
         });
-        app.get('/article-2', function (req, res) {
-          res.send('My article two');
-        });
-        app.get('/article-3', function (req, res) {
-          res.send('My article three');
-        });
+       
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
