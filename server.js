@@ -81,8 +81,8 @@ function createtemplate(data){
         app.get('/', function (req, res) {
           res.sendFile(path.join(__dirname, 'ui', 'index.html'));
         });
-        var articlename = req.params.articlename;
         app.get('/:article name', function (req, res) {
+            var articlename = req.params.articlename;
         res.send(path.join(createtemplate(artcles[articlename])));
         });
        
