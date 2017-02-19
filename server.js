@@ -30,7 +30,7 @@ var articles = {
                 <p> My name Abi and I am testing My first article page here."I hereby submit the bill for structural painting of pipeline (Applying two coats of Epoxy coltar over one coat of Zinc Phosphate primer) carried out at BPCL Irimpanam Installation for an amount of Rs. 38,462.50/-(Rupees Thirty eight thousand four hundred sixty two and Paisa fifty only).The total weight of structural painted is 9.05 MT (measurement sheet attached) @ Rs.4250 per MT."
                 </p>`
     },
-    'article31':{
+    'article-3':{
          title: 'Payyanz | third article',
          heading: 'My third article page',
          date: '21/02/2017',
